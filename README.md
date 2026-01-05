@@ -1,6 +1,6 @@
 # SMIP Manager Configuration
 
-* (Refer to the official CLI guide for full details:
+* (Refer to the CLI guide for full details:
 https://www.analog.com/media/en/reference-design-documentation/design-notes/smartmesh_ip_embedded_manager_cli_guide.pdf
 )
 
@@ -12,9 +12,6 @@ https://www.analog.com/media/en/reference-design-documentation/design-notes/smar
     - **9600 baud**, 8N1, no flow control
 
 ## SMIP Manager Configuration
-
-*(Ref: SmartMesh IP Embedded Manager CLI Guide)*
-
 ### 1. Access CLI
 - Connect to the **SMIP Manager Eval Board** via USB
 - CLI appears on the **3rd COM port**
