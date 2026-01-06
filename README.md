@@ -88,7 +88,7 @@ Each pulse triggers a **6-byte** binary packet on UART1:
 3. Wait until all motes join the network (this may take up to **~10+ minutes**).
 
 ### Check join status (Manager CLI)
-
+See: [SMIPmanager_README.md](ALL_README/SMIPmanager_README.md)
 Open the SmartMesh Manager **CLI serial port** (often the **3rd COM port** on Windows), then run:
 
 ```text
