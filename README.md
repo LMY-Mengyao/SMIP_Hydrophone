@@ -11,6 +11,21 @@ on a GPIO pin. For each pulse, the Apollo3 also sends a small timestamp packet o
 - **Timestamp UART:** UART1 TX (GPIO 35)  
 - **Timestamp packet:** `[0x73][NodeID][UTC_ms (uint32 little-endian)]`
 
+
+## Notes (Apollo3)
+
+- The three Apollo3 boards have been pre-flashed with the firmware in this repository.
+- If needed, you can re-flash the firmware using SEGGER J-Link (J-Link OB via USB, or an external J-Link via SWD).
+- A pre-built firmware binary is available in this GitHub repository.
+
+### Re-flash
+
+- If your EVB has on-board J-Link (J-Link OB): **just connect the board via USB** and flash.
+- If you are using an external J-Link: connect the J-Link to the board **via SWD**, then flash.
+
+Install SEGGER J-Link:
+https://www.segger.com/downloads/jlink/
+
 ---
 
 ## Hardware Connections
