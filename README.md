@@ -17,13 +17,18 @@ on a GPIO pin. For each pulse, the Apollo3 also sends a small timestamp packet o
 
 - The three Apollo3 boards have been pre-flashed with the firmware in this repository.
 - If needed, you can re-flash the firmware using SEGGER J-Link (J-Link OB via USB, or an external J-Link via SWD).
-- Pre-built binary:
+- Pre-built binaries:
   - [firmware/SMIP1PPS_3nodes_node1.bin](firmware/SMIP1PPS_3nodes_node1.bin)
   - [firmware/SMIP1PPS_3nodes_node2.bin](firmware/SMIP1PPS_3nodes_node2.bin)
   - [firmware/SMIP1PPS_3nodes_node3.bin](firmware/SMIP1PPS_3nodes_node3.bin)
 
 Install SEGGER J-Link:  
 https://www.segger.com/downloads/jlink/
+
+## Notes (RPi)
+
+- Demo Python code:
+  - https://github.com/liyinze1/pi-hydrophone
 
 ---
 
