@@ -99,6 +99,5 @@ sm
 
 ### Recommended reset (stability)
 
-After confirming all motes are joined (via `sm`), reset all Apollo3 boards.  
-This usually avoids long re-join delays and improves synchronization stability.  
+After confirming (via Manager CLI) that all nodes have joined, reset all Apollo3 boards. This usually results in faster re-join and more stable pulse synchronization.
 
