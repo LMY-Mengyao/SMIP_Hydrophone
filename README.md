@@ -89,7 +89,7 @@ Each pulse triggers a **6-byte** binary packet on UART1:
 
 ### Check join status (Manager CLI)
 See: [SMIPmanager_README.md](ALL_README/SMIPmanager_README.md)
-Open the SmartMesh Manager **CLI serial port** (often the **3rd COM port** on Windows), then run:
+Open the SmartMesh Manager **CLI serial port** (often the **3rd COM port**), then run:
 
 ```text
 login user
