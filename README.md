@@ -19,6 +19,8 @@ on a GPIO pin. For each pulse, the Apollo3 also sends a small timestamp packet o
 - If needed, you can re-flash the firmware using SEGGER J-Link (J-Link OB via USB, or an external J-Link via SWD).
 - Pre-built binary:
   - [firmware/SMIP1PPS_3nodes_node1.bin](firmware/SMIP1PPS_3nodes_node1.bin)
+  - [firmware/SMIP1PPS_3nodes_node2.bin](firmware/SMIP1PPS_3nodes_node2.bin)
+  - [firmware/SMIP1PPS_3nodes_node3.bin](firmware/SMIP1PPS_3nodes_node3.bin)
 
 Install SEGGER J-Link:  
 https://www.segger.com/downloads/jlink/
@@ -90,9 +92,13 @@ sm
 ```
 ### Pulse / timestamp start condition
 
-The Apollo3 outputs pulses and timestamps only after the mote is OPERATIONAL. After join, the node waits until the next UTC minute boundary, then starts: Pulse on GPIO 26 (2 Hz, 500 ms period)
-Timestamp packets on UART1 TX (GPIO 35)
+- The Apollo3 outputs pulses and timestamps only after the mote is OPERATIONAL.
+- After join, the node waits until the next UTC minute boundary, then starts:
+  - Pulse on GPIO 26 (2 Hz, 500 ms period)
+  - Timestamp packets on UART1 TX (GPIO 35)
 
 ### Recommended reset (stability)
-After confirming all motes are joined (via sm), reset all Apollo3 boards.
-This usually avoids long re-join delays and improves synchronization stability.
+
+After confirming all motes are joined (via `sm`), reset all Apollo3 boards.  
+This usually avoids long re-join delays and improves synchronization stability.  
+
